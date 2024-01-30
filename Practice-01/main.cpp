@@ -1,11 +1,11 @@
 #include<iostream>
-void showMessage();
+
+void showMessage()
+{
+   std::cout << "Hello Git!";
+}
 int main(int argv, char**argc)
 {
     showMessage();
     return 0;
-}
-void showMessage()
-{
-   std::cout << "Hello Git!";
 }
